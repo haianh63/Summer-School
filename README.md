@@ -1,16 +1,21 @@
-Với folder strapi, cần dùng các câu lệnh: \
-npm install \
-cd src/plugins/charts \
-npm install \
-cd ../../../   \
-npm run build   \
-npm run develop  
+# Setup and Run Guide
 
-Tài khoản admin của strapi: \
-gmail: haianh6311@gmail.com  \
-password: 10DiemWeb
+## 1. Install and Run Strapi
 
-Với folder front end, khi chạy cần dùng các câu lệnh:  \
-npm install  \
-npm run dev  
+Run the following commands to install dependencies and start Strapi:
 
+```sh
+npm install
+cd src/plugins/charts
+npm install
+cd ../../../
+npm run build
+npm run develop
+```
+
+## 2. Install and Run Frontend
+Run the following commands to install dependencies and start the frontend:
+```sh
+npm install
+npm run dev
+```
